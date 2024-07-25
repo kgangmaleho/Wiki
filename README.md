@@ -1,0 +1,2 @@
+# WikiJSDocs
+Documentation for WikiJS
