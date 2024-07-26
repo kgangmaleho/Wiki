@@ -14,7 +14,7 @@ find "$FOLDER" -maxdepth 1 -type f -name "*.docx" | while read -r FILE; do
 	#only if the md file doesn't exist, should you create an md file for the docx
 	BASENAME=$(basename "$FILE" .docx)
 	NEWBASENAME="${BASENAME// /_}"
-	if [ ! -e "$NEWBASENAME.md" ]; then
+	#if [ ! -e "$NEWBASENAME.md" ]; then
 
 	#This is the header of the markdown file that WikiJS uses to identify it
 	METADATA=$(cat <<EOF
@@ -33,11 +33,11 @@ EOF
 	#Make the folder to store the images
 	mkdir -p "$NEWBASENAME"
 	#convert the document files to md format using github md configuration (gfm)
-	pandoc -f docx -t gfm "$FILE" -o "/$FOLDER/$NEWBASENAME.md" --extract-media="$NEWBASENAME"
+	pandoc -f docx -t gfm --wrap=none "$FILE" -o "/$FOLDER/$NEWBASENAME.md" --extract-media="$NEWBASENAME"
 	#add the metadata at the header of the file
 	echo "$METADATA" | cat - "$FOLDER/$NEWBASENAME.md" > temp.md && mv temp.md "$FOLDER/$NEWBASENAME.md"
 	echo "$NEWBASENAME.md Successfully Created"
-fi
+#fi
 done
 
 echo "Conversion Complete"
