@@ -1,5 +1,5 @@
 ---
-title: VWPPSO Technical Specification
+title: VWPPSO_Technical_Specification
 description:
 published: true
 date: 2024-07-25T13:30:59.335Z
