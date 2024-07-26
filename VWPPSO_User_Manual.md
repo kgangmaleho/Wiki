@@ -1,5 +1,5 @@
 ---
-title: VWPPSO_User_Manual
+title: VWPPSO User Manual
 description:
 published: true
 date: 2024-07-25T13:30:59.335Z
