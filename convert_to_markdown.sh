@@ -1,9 +1,6 @@
 #!/bin/bash
 
-FOLDER="/mnt/c/Users/kgang.maleho/Downloads/Docs/converted/WikiJS/"
-
-MEDIA_DIR="/src"
-mkdir -p "$MEDIA_DIR"
+FOLDER="/home/edward/wikijs/Wiki/"
 
 find "$FOLDER" -maxdepth 1 -type f -name "*.docx" | while read -r FILE; do
 	if [ ! -e "$FILE" ]; then
@@ -13,7 +10,7 @@ find "$FOLDER" -maxdepth 1 -type f -name "*.docx" | while read -r FILE; do
 	fi
 
 	BASENAME=$(basename "$FILE" .docx)
-
+	if [ ! -e "$BASENAME.md" ]; then
 	METADATA=$(cat <<EOF
 ---
 title: $BASENAME
@@ -27,9 +24,12 @@ dateCreated: 2024-07-25T13:30:59:335Z
 
 EOF
 )
+	mkdir -p "$BASENAME"
 	pandoc -f docx -t gfm "$FILE" -o "/$FOLDER/$BASENAME.md" --extract-media="$BASENAME"
 
 	echo "$METADATA" | cat - "$FOLDER/$BASENAME.md" > temp.md && mv temp.md "$FOLDER/$BASENAME.md"
+	echo "$BASENAME.md Successfully Created"
+fi
 done
 
 echo "Conversion Complete"
