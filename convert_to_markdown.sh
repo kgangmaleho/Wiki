@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#This script converts all the documents in the current directory from docx format into md format
+
 #location of the docx files in the git
 FOLDER="/home/edward/wikijs/Wiki/"
 
