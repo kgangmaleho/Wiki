@@ -21,10 +21,7 @@ Confidentiality and Copyright
 
 Proprietary, confidential data. All rights reserved.
 
-Distribution and/or reproduction of these documents or any of their
-parts, their utilisation or communication of their contents to third
-parties is not allowed, unless formally conceded. Contravention will
-cause damages.
+Distribution and/or reproduction of these documents or any of their parts, their utilisation or communication of their contents to third parties is not allowed, unless formally conceded. Contravention will cause damages.
 
 Copyright © 2019 by S4 Integration (Pty) Ltd.
 
@@ -85,29 +82,25 @@ South Africa
 
 [3.4.2 Features 10](#features-3)
 
-[3.5 Maintain Model Reference VIN Number
-10](#maintain-model-reference-vin-number)
+[3.5 Maintain Model Reference VIN Number 10](#maintain-model-reference-vin-number)
 
 [3.5.1 Description 10](#description-4)
 
 [3.5.2 Features 10](#features-4)
 
-[3.6 Active Directory Authentication
-11](#active-directory-authentication)
+[3.6 Active Directory Authentication 11](#active-directory-authentication)
 
 [3.6.1 Description 11](#description-5)
 
 [3.6.2 Features 11](#features-5)
 
-[3.7 Maintain Service Data for a Model
-11](#maintain-service-data-for-a-model)
+[3.7 Maintain Service Data for a Model 11](#maintain-service-data-for-a-model)
 
 [3.7.1 Description 11](#description-6)
 
 [3.7.2 Features 11](#features-6)
 
-[3.8 Total Cost of Servicing (Mileage)
-12](#total-cost-of-servicing-mileage)
+[3.8 Total Cost of Servicing (Mileage) 12](#total-cost-of-servicing-mileage)
 
 [3.8.1 Description 12](#description-7)
 
@@ -210,11 +203,7 @@ South Africa
 
 # Introduction
 
-The PPSO system is an online system that simplifies the process of
-retrieving vehicle service data that enables Special Market clients
-(Rental, Leasing Fleet and Government) customers the ability to access
-the parts system, labour operation codes and time units so that they can
-develop their own parts baskets.
+The PPSO system is an online system that simplifies the process of retrieving vehicle service data that enables Special Market clients (Rental, Leasing Fleet and Government) customers the ability to access the parts system, labour operation codes and time units so that they can develop their own parts baskets.
 
 **Business rules**
 
@@ -228,11 +217,9 @@ develop their own parts baskets.
 
   - The Vendor role can review total cost of service based on mileage
 
-  - The Vendor role can review report of total cost of service based on
-    mileage
+  - The Vendor role can review report of total cost of service based on mileage
 
-  - The Vendor role can review report of total cost of service based on
-    time
+  - The Vendor role can review report of total cost of service based on time
 
   - The Vendor role can view package information for a specified VIN
 
@@ -242,8 +229,7 @@ develop their own parts baskets.
 
 **Functional Requirements**
 
-  - A web application written is .NET(back-end), C\# (back-end) and
-    Angular(front-end)
+  - A web application written is .NET(back-end), C\# (back-end) and Angular(front-end)
 
   - An admin user utility used to maintain service information
 
@@ -279,8 +265,7 @@ develop their own parts baskets.
 
 ### Description 
 
-Login as handled and retrieved when a user on the Admin AD group. This
-will direct user to the admin navigation section.
+Login as handled and retrieved when a user on the Admin AD group. This will direct user to the admin navigation section.
 
 ### Features
 
@@ -294,8 +279,7 @@ will direct user to the admin navigation section.
 
 ### Description 
 
-Login as handled and retrieved when a user on the user fleet group. This
-will direct user to the user fleet navigation section.
+Login as handled and retrieved when a user on the user fleet group. This will direct user to the user fleet navigation section.
 
 ### Features
 
@@ -309,8 +293,7 @@ will direct user to the user fleet navigation section.
 
 ### Description 
 
-Menu page as seen by an Admin user. This includes a menu for the admin
-user to redirect users to the appropriate pages.
+Menu page as seen by an Admin user. This includes a menu for the admin user to redirect users to the appropriate pages.
 
 ### Features
 
@@ -324,8 +307,7 @@ user to redirect users to the appropriate pages.
 
 ### Description 
 
-User navigation page as seen by a user fleet menu user. This includes a
-menu for the user fleet user to redirect users to the appropriate pages.
+User navigation page as seen by a user fleet menu user. This includes a menu for the user fleet user to redirect users to the appropriate pages.
 
 ### Features
 
@@ -343,8 +325,7 @@ menu for the user fleet user to redirect users to the appropriate pages.
 
 ### Description 
 
-Admin user utility responsible for the creation and management of model
-reference vin numbers.
+Admin user utility responsible for the creation and management of model reference vin numbers.
 
 ### Features
 
@@ -374,8 +355,7 @@ User login and user requests are authenticated using Active Directory.
 
 ### Description 
 
-Admin user utility responsible for the creation and management of
-service data for a model.
+Admin user utility responsible for the creation and management of service data for a model.
 
 ### Features
 
@@ -394,8 +374,7 @@ service data for a model.
 
 ### Description 
 
-User fleet utility responsible displaying the prices of parts, labour
-and the total cost of service based on mileage.
+User fleet utility responsible displaying the prices of parts, labour and the total cost of service based on mileage.
 
 ### Features
 
@@ -412,8 +391,7 @@ and the total cost of service based on mileage.
 
 ### Description 
 
-User fleet utility responsible displaying the prices of parts, labour
-and the total cost of service based on time.
+User fleet utility responsible displaying the prices of parts, labour and the total cost of service based on time.
 
 ### Features
 
@@ -430,8 +408,7 @@ and the total cost of service based on time.
 
 ### Description 
 
-Admin utility responsible for removing service data for the model on the
-database based on the VIN number.
+Admin utility responsible for removing service data for the model on the database based on the VIN number.
 
 ### Features
 
@@ -446,8 +423,7 @@ database based on the VIN number.
 
 ### Description 
 
-User fleet utility responsible for removing service data for the model
-on the database based on the VIN number.
+User fleet utility responsible for removing service data for the model on the database based on the VIN number.
 
 ### Features
 
@@ -465,8 +441,7 @@ on the database based on the VIN number.
 
 ### Description 
 
-User fleet utility responsible for retrieving part information in the
-database based on the part number provided.
+User fleet utility responsible for retrieving part information in the database based on the part number provided.
 
 ### Features
 
@@ -480,8 +455,7 @@ database based on the part number provided.
 
 ### Description 
 
-User fleet utility responsible for retrieving whether a vehicle has an
-open campaign or not.
+User fleet utility responsible for retrieving whether a vehicle has an open campaign or not.
 
 ### Features
 
@@ -495,8 +469,7 @@ open campaign or not.
 
 ### Description 
 
-User fleet utility responsible for retrieving a vehicles service history
-based on VIN.
+User fleet utility responsible for retrieving a vehicles service history based on VIN.
 
 ### Features
 
@@ -511,9 +484,7 @@ based on VIN.
 
 ### Description
 
-Crafter vehicles have a service interval of 20000km, as opposed to the
-default 15000. The model codes and their interval are captured on the
-Maintain Service Intervals page on the Admin portal.
+Crafter vehicles have a service interval of 20000km, as opposed to the default 15000. The model codes and their interval are captured on the Maintain Service Intervals page on the Admin portal.
 
 ### Features
 
@@ -529,10 +500,7 @@ Maintain Service Intervals page on the Admin portal.
 
 ### Description
 
-Some part numbers are returned with Pseudo codes that do not conform to
-the Part Number format used in other systems. These need to be captured
-and overwritten with the assigned part number as captured by an Admin
-user.
+Some part numbers are returned with Pseudo codes that do not conform to the Part Number format used in other systems. These need to be captured and overwritten with the assigned part number as captured by an Admin user.
 
 ### Features
 
@@ -548,8 +516,7 @@ user.
 
 ### Description
 
-Usage Reports for the business where they will be able to monitor the
-usage of the system, as logged by the Audit Log functionality.
+Usage Reports for the business where they will be able to monitor the usage of the system, as logged by the Audit Log functionality.
 
 ### Features
 
@@ -574,9 +541,7 @@ Admin functionality to manually capture and manage service package data.
 
 ### Description
 
-The backend makes use of Swagger to provide an interface for the API.
-The swagger portal should require a user to authenticate before they are
-allowed to make use of API endpoints.
+The backend makes use of Swagger to provide an interface for the API. The swagger portal should require a user to authenticate before they are allowed to make use of API endpoints.
 
 ### Features
 

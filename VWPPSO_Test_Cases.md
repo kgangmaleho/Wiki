@@ -19,10 +19,7 @@ Confidentiality and Copyright
 
 Proprietary, confidential data. All rights reserved.
 
-Distribution and/or reproduction of these documents or any of their
-parts, their utilisation or communication of their contents to third
-parties is not allowed, unless formally conceded. Contravention will
-cause damages.
+Distribution and/or reproduction of these documents or any of their parts, their utilisation or communication of their contents to third parties is not allowed, unless formally conceded. Contravention will cause damages.
 
 Copyright © 2019 by S4 Integration (Pty) Ltd.
 
@@ -84,11 +81,7 @@ South Africa
 
 # System Overview
 
-An on-line system that simplifies the process of retrieving vehicle
-service data that enables Special Market clients (Rental, Leasing Fleet
-and Government) customers the ability to access the parts system, labour
-operation codes and time units so that they can develop their own parts
-baskets.
+An on-line system that simplifies the process of retrieving vehicle service data that enables Special Market clients (Rental, Leasing Fleet and Government) customers the ability to access the parts system, labour operation codes and time units so that they can develop their own parts baskets.
 
 # Test Cases
 
