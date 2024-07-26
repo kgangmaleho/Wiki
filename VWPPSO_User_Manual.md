@@ -1,12 +1,13 @@
 ---
 title: VWPPSO User Manual
-description:
+description: 
 published: true
-date: 2024-07-25T13:30:59.335Z
-tags:
+date: 2024-07-26T07:57:22.387Z
+tags: 
 editor: markdown
-dateCreated: 2024-07-25T13:30:59:335Z
+dateCreated: 2024-07-26T07:48:50.250Z
 ---
+
 **VWSA**
 
 ***PPSO for Special Markets***
@@ -269,11 +270,9 @@ develop their own parts baskets.
 
 ## Loading Screen
 
-Upon visiting the website, a user will be met with a loading screen,
-where their log in details are retrieved from the active directory.
+Upon visiting the website, a user will be met with a loading screen, where their log in details are retrieved from the active directory.
 
-Upon an invalid login, the user will see a red error message appear,
-informing them that there is an error with their login credentials.
+Upon an invalid login, the user will see a red error message appear, informing them that there is an error with their login credentials.
 Another message will appear stating that page needs to be refreshed.
 
 ![VW-loading screen](VWPPSO_User_Manual/media/image1.png)
