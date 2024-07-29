@@ -2,7 +2,7 @@
 title: VWPPSO Functional Specification
 description: 
 published: true
-date: 2024-07-29T08:02:52.753Z
+date: 2024-07-29T08:05:08.226Z
 tags: 
 editor: markdown
 dateCreated: 2024-07-29T07:39:24.662Z
@@ -42,136 +42,6 @@ South Africa
 
 **  
 **
-
-**Table of Contents**
-
-[Confidentiality and Copyright 2](#_Toc484093250)
-
-[1 ocument Information 5](#document-information)
-
-[1.1 Change History 5](#change-history)
-
-[1.2 Review Record 5](#review-record)
-
-[1.3 Open Issues 5](#open-issues)
-
-[2 Introduction 6](#introduction)
-
-[3 Requirement Keys 7](#requirement-keys)
-
-[3.1 Admin Login 8](#admin-login)
-
-[3.1.1 Description 8](#description)
-
-[3.1.2 Features 8](#features)
-
-[3.2 User Fleet Login 8](#user-fleet-login)
-
-[3.2.1 Description 8](#description-1)
-
-[3.2.2 Features 9](#features-1)
-
-[3.3 Admin Menu 9](#admin-menu)
-
-[3.3.1 Description 9](#description-2)
-
-[3.3.2 Features 9](#features-2)
-
-[3.4 User Fleet Menu 9](#user-fleet-menu)
-
-[3.4.1 Description 9](#description-3)
-
-[3.4.2 Features 10](#features-3)
-
-[3.5 Maintain Model Reference VIN Number 10](#maintain-model-reference-vin-number)
-
-[3.5.1 Description 10](#description-4)
-
-[3.5.2 Features 10](#features-4)
-
-[3.6 Active Directory Authentication 11](#active-directory-authentication)
-
-[3.6.1 Description 11](#description-5)
-
-[3.6.2 Features 11](#features-5)
-
-[3.7 Maintain Service Data for a Model 11](#maintain-service-data-for-a-model)
-
-[3.7.1 Description 11](#description-6)
-
-[3.7.2 Features 11](#features-6)
-
-[3.8 Total Cost of Servicing (Mileage) 12](#total-cost-of-servicing-mileage)
-
-[3.8.1 Description 12](#description-7)
-
-[3.8.2 Features 12](#features-7)
-
-[3.9 Total Cost of Servicing (Time) 12](#total-cost-of-servicing-time)
-
-[3.9.1 Description 12](#description-8)
-
-[3.9.2 Features 13](#features-8)
-
-[3.10 Delete Service Data for Model 13](#delete-service-data-for-model)
-
-[3.10.1 Description 13](#description-9)
-
-[3.10.2 Features 13](#features-9)
-
-[3.11 View Packages 14](#view-packages)
-
-[3.11.1 Description 14](#description-10)
-
-[3.11.2 Features 14](#features-10)
-
-[3.12 Part Look Up 14](#part-look-up)
-
-[3.12.1 Description 14](#description-11)
-
-[3.12.2 Features 15](#features-11)
-
-[3.13 Campaign Check 15](#campaign-check)
-
-[3.13.1 Description 15](#description-12)
-
-[3.13.2 Features 15](#features-12)
-
-[3.14 Vehicle Service History 15](#vehicle-service-history)
-
-[3.14.1 Description 15](#description-13)
-
-[3.14.2 Features 16](#features-13)
-
-[3.15 Crafter Service Intervals 16](#crafter-service-intervals)
-
-[3.15.1 Description 16](#description-14)
-
-[3.15.2 Features 16](#features-14)
-
-[3.16 Fluid Mapping 17](#fluid-mapping)
-
-[3.16.1 Description 17](#description-15)
-
-[3.16.2 Features 17](#features-15)
-
-[3.17 Usage Reports for Business 17](#usage-reports-for-business)
-
-[3.17.1 Description 17](#description-16)
-
-[3.17.2 Features 17](#features-16)
-
-[3.18 Manual Data Maintenance 18](#manual-data-maintenance)
-
-[3.18.1 Description 18](#description-17)
-
-[3.18.2 Features 18](#features-17)
-
-[3.19 Swagger Portal Authentication 18](#swagger-portal-authentication)
-
-[3.19.1 Description 18](#description-18)
-
-[3.19.2 Features 18](#features-18)
 
 # Document Information
 
