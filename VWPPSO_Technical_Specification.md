@@ -1,68 +1,22 @@
 ---
 title: VWPPSO Technical Specification
-description:
+description: 
 published: true
-date: 2024-07-25T13:30:59:335Z
-tags:
+date: 2024-07-29T11:58:02.177Z
+tags: 
 editor: markdown
-dateCreated: 2024-07-25T13:30:59:335Z
+dateCreated: 2024-07-26T07:48:46.959Z
 ---
-**VWSA**
 
-***PPSO for Special Markets***
+# VWS
 
-***Technical Specification Document***
+## PPSO for Special Markets
 
-***Version 1.1.0***
+### Technical Specification Document
 
-<span id="_Toc484093250" class="anchor"></span>
+ Version 1.1.0
 
-Confidentiality and Copyright
 
-Proprietary, confidential data. All rights reserved.
-
-Distribution and/or reproduction of these documents or any of their parts, their utilisation or communication of their contents to third parties is not allowed, unless formally conceded. Contravention will cause damages.
-
-Copyright © 2019 by S4 Integration (Pty) Ltd.
-
-S4 Integration (Pty) Ltd.
-
-1 Leadwood Crescent
-
-Fairview
-
-Port Elizabeth
-
-South Africa
-
-6065
-
-[www.s4.co.za](http://www.s4.co.za)
-
-**  
-**
-
-**Table of Contents**
-
-[Confidentiality and Copyright 2](#_Toc484093250)
-
-[1 Document Information 5](#document-information)
-
-[1.1 Change History 5](#change-history)
-
-[1.2 Review Record 5](#review-record)
-
-[1.3 Open Issues 5](#open-issues)
-
-[2 Overview 6](#overview)
-
-[2.1 Technology Used 6](#technology-used)
-
-[2.2 The Components 6](#the-components)
-
-[2.3 The Process 6](#the-process)
-
-[2.4 Process Flow Diagram 7](#process-flow-diagram)
 
 # Document Information
 
